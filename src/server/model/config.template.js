@@ -3,9 +3,9 @@ const template = {
     'path': 'logs/'
   },
   'server': {
-    'port': 5000,
+    'port': 8080,
     'masterKey': 'mymasterkey',
-    'https': false,
+    'https': true,
     'hostname': '',
     'certs': {
       'privatekey': '',
